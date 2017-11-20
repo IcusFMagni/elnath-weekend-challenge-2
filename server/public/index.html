@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calcutron</title>
-    <script src="vendors/jquery-3.2.1.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <script src="vendors/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
 <script src="scripts/client.js"></script>
 </head>
 <body>
     <h1>Calcutronex</h1>
-    
+    <div id="calcDiv" >
+    <p>
+        <input id="x"><input id="y"> 
+    </p>
+    <p>
+        <button class = "math" id="add">+</button><button class="math" id="subtract">-</button><button class="math" id="multiply">*</button><button class="math" id="divide">/</button>
+    </p>
+    <p id="answer"></p>
+    <button id="historyButton">[ | -Get Royal Record- | ]</button>
+    <p id="historyLog"></p>
+    </div>
 </body>
 </html>

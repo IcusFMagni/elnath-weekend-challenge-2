@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var port = 5000;
-var calc = require('./')
+var calc = require('./routes/calc.js')
 
 app.use(express.static('server/public'));
 app.use(bodyParser.urlencoded({extended: true}));

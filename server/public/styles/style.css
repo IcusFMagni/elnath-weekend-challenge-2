@@ -1,0 +1,73 @@
+#calcDiv {
+    background-color: lightslategray;
+    width: 300px;
+    height: 600px;
+    padding: 10px;
+    border-style: groove;
+    border-color: lightslategray;
+    border-width: 30px;
+    margin:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p{
+    font-family: fantasy;
+    margin: 1px
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(96, 104, 114);
+    border-style: groove;
+    border-color: rgb(36, 54, 75);
+    border-width: 30px;
+    width: 300px;
+    padding: 10px;
+    margin:10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(117, 60, 43)
+}
+
+input {
+    background-color: rgb(73, 93, 148);
+    border-style: double;
+    color: rgba(59, 54, 44, 0.849);
+    border-width: 15px;
+    padding: 2px;
+    font-size: 25px;
+    text-align: right;
+}
+
+button {
+    background-color: darkslategrey;
+    color: rgba(245, 222, 179, 0.945);
+    border-width: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin: 4px;
+    padding: 8px;
+
+}
+
+body {
+    background-color: rgb(211, 185, 137);
+    font-family: Courier New, Courier, monospace
+    /* animation: waver;
+    animation-duration: 2s;
+    animation-iteration-count: infinite */
+}
+
+@keyframes waver {
+    0% {
+        background-color: oldlace
+    }
+    50% {
+        background-color: rgb(211, 190, 150)
+    }
+    100% {
+        background-color: oldlace
+    }
+}
