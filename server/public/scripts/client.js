@@ -10,6 +10,10 @@ $(document).ready(function () {
     $('#multiply').on('click', multiply)
     $('#divide').on('click', divide)
     $('#historyButton').on('click', historyPrint)
+    $('#clearButton').on('click', function () {
+        $('#x').val('')
+        $('#y').val('')
+    })
 });
 
 function addition () {
