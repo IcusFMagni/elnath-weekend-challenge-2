@@ -17,6 +17,14 @@ p{
 
 }
 
+#clearButton {
+    width: 295px;
+}
+
+#historyButton {
+    width: 295px;
+}
+
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -78,4 +86,5 @@ body {
     overflow: scroll;
     height:200px;
     background-color: rgb(211, 185, 137);
+    border-radius: 5px;
 }
